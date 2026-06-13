@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  /* 배경 */
+  --color-bg-base: #0d1117;
+  --color-bg-surface: #161b22;
+  --color-bg-raised: #1c2128;
+  --color-bg-overlay: #22272e;
+  --color-bg-border: #30363d;
+
+  /* 텍스트 */
+  --color-text-primary: #e6edf3;
+  --color-text-secondary: #8b949e;
+  --color-text-muted: #484f58;
+  --color-text-inverse: #0d1117;
+
+  /* purple */
+  --color-purple: #968de5;
+  --color-purple-hover: #7b6fd4;
+  --color-purple-muted: #2a2654;
+
+  /* 난이도 */
+  --color-easy-bg: #0f1f0f;
+  --color-easy-text: #3dd68c;
+  --color-normal-bg: #0e1e24;
+  --color-normal-text: #4db8c8;
+  --color-hard-bg: #1f0e0e;
+  --color-hard-text: #e05555;
+
+  /* 카테고리 */
+  --color-cat-study: #a78bfa;
+  --color-cat-workout: #34d399;
+  --color-cat-daily: #fbbf24;
+
+  /* 잔디 */
+  --color-grass-0: #21262d;
+  --color-grass-1: #0e4429;
+  --color-grass-2: #006d32;
+  --color-grass-3: #26a641;
+  --color-grass-4: #39d353;
+
+  /* 폰트 */
+  --font-sans: "Pretendard Variable", Pretendard, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* 모서리 둥글기 */
+  --radius-card: 12px;
+  --radius-badge: 6px;
+
+  /* 그림자 */
+  --shadow-card: 0 0 0 1px #30363d;
+  --shadow-purple: 0 0 12px rgba(124, 58, 237, 0.4);
+}
